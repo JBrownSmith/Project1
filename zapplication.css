@@ -1,0 +1,222 @@
+/* GLOBAL */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+    height: 100vh;
+    width: 100%;
+    max-width: 1200px;
+}
+
+body {
+    font-family:'Montserrat', sans-serif;
+}
+
+/* HEADER */
+nav{
+    display: flex;
+    background-color: rgb(99, 117, 124);
+    padding: 10px;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-menu img {
+display: flex;
+width: 100px;
+margin-left: 10%;
+}
+
+.right-menu {
+display: flex;
+justify-content: space-between;
+text-align: right;
+width: 30%;
+margin-right: 3%;
+font-size: .5em;
+font-weight: bold;
+}
+
+.right-menu a { 
+    color: white;
+    text-decoration: none;
+}
+
+.right-menu a:hover {
+    color: black;
+}
+
+.main-logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+.main-logo img {
+    width: 15%;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.hero-image img {
+    display: flex;
+    max-width: 1000px;
+    min-width: none;
+    height: 750px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.hero-image > h3 {
+    position: absolute;
+    top: 50%;
+    color: white;
+    left: 33%;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px grey;
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    color: rgb(110, 109, 109);
+    font-style: bold;
+    font-size: 2em;
+    padding: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+h4 {
+    font-style: bold;
+    text-shadow: 2px 2px 4px grey;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.home-page-flexbox-container {
+    max-width: 1250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.flexbox-item {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(129, 143, 150, 0.534);
+    width: 250px;
+    height: 300px;
+    color: white;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+    font-size: .7em;
+    box-shadow: 1px 1px 4px grey;
+    margin: 2% 10px;
+}
+
+.flexbox-item img {
+    min-height: 20%;
+    max-height: 40%;
+    padding: 10px;
+}
+
+/*NEED TO WORK OUT HOW TO MAKE BUTTON LARGER???*/
+
+.button-div{
+text-align: center;
+    }
+    
+.button{
+      background-color: rgb(99, 117, 124);
+      color: white;
+      box-shadow: 1px 1px 4px grey;
+      border-radius: 50px;
+}
+
+article {
+text-align: wrap;
+}
+article img {
+    width: 3%;
+}
+
+/*USE THIS TO ORGANISE THE PARAGRAPHS FROM THURSDAY'S CLASS
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    padding: var(--padding);
+}
+
+.paragraphs > *:first-child {
+        width: 40%;
+        margin: 0 1em;
+        object-fit: contain;
+}
+.paragraphs > *:last-child {
+        padding: 0 1em;
+*/
+
+.paragraphs {
+    padding: 1000px
+}
+
+/* ABOUT PAGE */
+
+
+
+.about-paragraphs {
+    padding: 5%;
+    display: flex;
+    font-size: 1rem;
+    color: rgb(110, 109, 109);
+    }
+
+.about-paragraphs img {
+    display: flex;
+    height: 100%;
+    width: 40%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(99, 117, 124);
+    justify-content: space-between;
+}
+.logo-footer img{
+    display: flex;
+    width: 100px;
+    padding: 30px;  
+
+}
+.socials {
+    display: flex;
+    padding-right: 30%;
+    color: white;
+}
+
+.socials img {
+    justify-content: space-around;
+    height: 3rem;
+    width: 3rem;
+}
+
+
+
